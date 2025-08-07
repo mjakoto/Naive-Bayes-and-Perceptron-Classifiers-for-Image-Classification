@@ -1,40 +1,54 @@
 # Overview
 This project implements Naive Bayes and Perceptron classifiers from scratch in Python to classify:
 
-Handwritten Digits (0–9)
+- Handwritten Digits (0–9)
 
-Faces in edge-processed images
+- Faces in edge-processed images
 
-The goal is to explore feature extraction, custom algorithm implementation, and performance evaluation using different training set sizes.
+- The goal is to explore feature extraction, custom algorithm implementation, and performance evaluation using different training set sizes.
 
 ## Features
-Naive Bayes Classifier – Probabilistic model for pixel-based feature classification.
+- Naive Bayes Classifier – Probabilistic model for pixel-based feature classification.
 
-Perceptron Classifier – Linear classifier with weight updates based on misclassifications.
+- Perceptron Classifier – Linear classifier with weight updates based on misclassifications.
 
-Custom Feature Extraction – Binary pixel features and grid-based segmentation options.
+- Custom Feature Extraction – Binary pixel features and grid-based segmentation options.
 
-Performance Analysis – Standard deviation, and training time for datasets from 10% to 100% size.
+- Performance Analysis – Standard deviation, and training time for datasets from 10% to 100% size.
 
 ## Technologies Used
-Python 3
+- Python 3
 
-NumPy – Array operations
+- NumPy – Array operations
 
-Matplotlib – Plotting learning curves and results
+- Matplotlib – Plotting learning curves and results
 
 ## How to Run
 ### 1. Clone the repository
 
-git clone https://github.com/mjakoto/Naive-Bayes-and-Perceptron-Classifiers-for-Image-Classification.git  
+- git clone https://github.com/mjakoto/Naive-Bayes-and-Perceptron-Classifiers-for-Image-Classification.git  
 
-cd Naive-Bayes-and-Perceptron-Classifiers-for-Image-Classification
+- cd Naive-Bayes-and-Perceptron-Classifiers-for-Image-Classification
 ### 2. Ensure Python 3 & dependencies are installed
 
-pip install numpy matplotlib
+- pip install numpy matplotlib
 ### 3. Run the main script
 
-python main.py
+- python main.py
 ### 4. View results
 
-Accuracy, training time, and standard deviation will print to the console.
+- Accuracy, training time, and standard deviation will print to the console.
+
+## Results Summary
+- Naive Bayes achieved strong baseline accuracy with minimal training time.  
+
+- Perceptron improved with more training data, surpassing Naive Bayes at higher dataset sizes.  
+
+- Both models met the 70%+ accuracy benchmark when trained on the full dataset.
+
+## Lessons Learned
+- Implementing classifiers from scratch deepens understanding of ML fundamentals.  
+
+- Even simple binary pixel features can yield competitive accuracy.  
+
+- Dataset size significantly impacts model performance and stability.  
